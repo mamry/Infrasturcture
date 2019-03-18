@@ -1,0 +1,10 @@
+ip-10-183-1-59.ec2.internal
+
+{
+  "Code" : "Success",
+  "LastUpdated" : "2019-03-18T07:32:58Z",
+  "InstanceProfileArn" : "arn:aws:iam::342171239836:instance-profile/practise-role",
+  "InstanceProfileId" : "AIPAI6TTFDQ4X67V4XPJS"
+}
+
+midterm-web

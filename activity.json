@@ -1,0 +1,48 @@
+{
+    "Activities": [
+        {
+            "Description": "Launching a new EC2 instance: i-04355123c9cafb30a", 
+            "AutoScalingGroupName": "midterm-autoscaling-group", 
+            "ActivityId": "34b5a63e-fd26-eadb-bd7f-d6b19305f733", 
+            "Details": "{\"Subnet ID\":\"subnet-09567dc51337da764\",\"Availability Zone\":\"us-east-1b\"}", 
+            "StartTime": "2019-03-18T07:41:11.994Z", 
+            "Progress": 100, 
+            "EndTime": "2019-03-18T07:41:46Z", 
+            "Cause": "At 2019-03-18T07:41:09Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 1 to 2.", 
+            "StatusCode": "Successful"
+        }, 
+        {
+            "Description": "Terminating EC2 instance: i-0624e9a1715aa5f4b", 
+            "AutoScalingGroupName": "midterm-autoscaling-group", 
+            "ActivityId": "4365a63e-fb25-097f-7714-357c4440d69b", 
+            "Details": "{\"Subnet ID\":\"subnet-09567dc51337da764\",\"Availability Zone\":\"us-east-1b\"}", 
+            "StartTime": "2019-03-18T07:40:39.106Z", 
+            "Progress": 100, 
+            "EndTime": "2019-03-18T07:46:00Z", 
+            "Cause": "At 2019-03-18T07:40:38Z an instance was taken out of service in response to a EC2 health check indicating it has been terminated or stopped.", 
+            "StatusCode": "Successful"
+        }, 
+        {
+            "Description": "Launching a new EC2 instance: i-0624e9a1715aa5f4b", 
+            "AutoScalingGroupName": "midterm-autoscaling-group", 
+            "ActivityId": "8ef5a63e-ddca-cf0d-d413-ccc22662f011", 
+            "Details": "{\"Subnet ID\":\"subnet-09567dc51337da764\",\"Availability Zone\":\"us-east-1b\"}", 
+            "StartTime": "2019-03-18T07:32:38.195Z", 
+            "Progress": 100, 
+            "EndTime": "2019-03-18T07:33:12Z", 
+            "Cause": "At 2019-03-18T07:32:29Z a user request created an AutoScalingGroup changing the desired capacity from 0 to 2.  At 2019-03-18T07:32:35Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 0 to 2.", 
+            "StatusCode": "Successful"
+        }, 
+        {
+            "Description": "Launching a new EC2 instance: i-075692e183e7383d9", 
+            "AutoScalingGroupName": "midterm-autoscaling-group", 
+            "ActivityId": "03f5a63e-ddca-4b0e-0ea8-f7aaa99f235e", 
+            "Details": "{\"Subnet ID\":\"subnet-0bcecd8a99dc6b118\",\"Availability Zone\":\"us-east-1a\"}", 
+            "StartTime": "2019-03-18T07:32:38.162Z", 
+            "Progress": 100, 
+            "EndTime": "2019-03-18T07:33:11Z", 
+            "Cause": "At 2019-03-18T07:32:29Z a user request created an AutoScalingGroup changing the desired capacity from 0 to 2.  At 2019-03-18T07:32:35Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 0 to 2.", 
+            "StatusCode": "Successful"
+        }
+    ]
+}
